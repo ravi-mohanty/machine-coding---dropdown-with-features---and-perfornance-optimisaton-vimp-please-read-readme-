@@ -17,6 +17,35 @@
 // | `typeof` TDZ variable                  | `ReferenceError`         |
 
 
+// some questions---
+
+console.log(a);
+var a = 10;
+console.log(b);
+let b = 20;
+
+function foo() {
+    var a = 1;
+    var a = 2;
+    let b = 3;
+    let b = 4;
+    console.log(a, b);
+}
+foo();
+
+var a = 1;
+function outer() {
+    console.log(a);
+    var a = 2;
+    function inner() {
+        console.log(a);
+        let a = 3;
+    }
+    inner();
+}
+outer();
+
+
 //-------------------------------------------------------- [==, ===] -----------------------------------------------------------
 
 // === checks both value and type without any conversion. == performs type coercion first, which leads to unpredictable results, so I always use === by default.
