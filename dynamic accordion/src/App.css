@@ -1,0 +1,13 @@
+.title{
+  width: 80px;
+  height: 50px;
+  background: green;
+}
+
+.rows{
+  width: 500px;
+  height: 20px;
+  background-color: yellow;
+  gap: 10px;
+  margin-bottom: 10px;
+}
