@@ -1,0 +1,15 @@
+.rows{
+    width: 180px;
+    height: auto;
+    margin-left: 290px;
+    border: 2px solid red;
+    background-color:bisque
+}
+.dropdown{
+    width: 180px;
+    height : 40px;
+    background: yellow;
+    margin-left: 290px;
+    margin-top: 10px;
+
+}
