@@ -7,3 +7,5 @@ what feature does the peoject is about : create a dropdown
         search feature is also there, 
 
         first select your state is there than || state dropdown  --> when we click the dropdown than we need the seach bar there where we can search the items  
+
+        
